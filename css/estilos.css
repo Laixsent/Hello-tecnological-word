@@ -1,0 +1,38 @@
+.lw { font-size: 60px; }
+	#formulario{width: 400px; margin: 0 auto;background-color:#94b482;}
+	label{width: 100px; display: inline-block;font-family:sans-serif;}
+	table{width: 400px; margin:0 auto; background-color:#94b482;}
+	table, tr, th, td{border: 1px solid #000; border-collapse: collapse; font-family:sans-serif;}
+	table th, td{width: 133px; font-family:sans-serif;} 
+
+
+	
+html {
+
+  background-image: url("https://c8.alamy.com/compes/2c60hj0/moderno-fondo-monocromo-con-estructura-de-figuras-geometricas-repetidas-vector-sin-costuras-2c60hj0.jpg");
+  background-position: center;
+  background-repeat: repeat;
+ 
+}
+
+buton{
+	border-radius:37px;
+	margin-top;
+}
+h1{
+margin: 10px;
+  padding: 10px;
+  margin-left:500px;
+color: #b4223c;"
+ letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+h4{
+margin: 10px;
+  padding: 10px;
+  margin-left:550px;
+color: #b4223c;"
+ letter-spacing: 2px;
+  word-spacing: 4px;
+}
