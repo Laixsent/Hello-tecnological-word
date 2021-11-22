@@ -1,0 +1,137 @@
+<! DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Cotizaciones</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li ><a href="index.html" title="Home">Principal</a></li>
+		</nav>
+		
+		<section>
+			<article>
+					<div id="contenedor">
+						<audio src=""></audio>
+						<header>
+							<h1>Destinos Turisticos</h1>
+						</header>
+						<h2 class="titular">Imagenes</h2>
+								<div class="tab">
+								<!--imagenes-->
+									<section class="galeria">
+										<ol>
+											<li><a href="#link1"><img src="img/galeria1/1.jpg" alt=" Basílica de San Pedro del Vaticano" title=" Basílica de San Pedro del Vaticano"></a></li>   
+											<li><a href="#link2"><img src="img/galeria1/2.jpg" alt="Angkor Wat" title="Angkor Wat"></a></li>
+											<li><a href="#link3"><img src="img/galeria1/3.jpg" alt="Gran Muralla China" title="Gran Muralla China"></a></li>
+											
+											<li><a href="#link4"><img src="img/galeria1/4.jpg" alt=" Basílica de San Pedro del Vaticano" title=" Basílica de San Pedro del Vaticano"></a></li>   
+											<li><a href="#link5"><img src="img/galeria1/5.jpg" alt="Angkor Wat" title="Angkor Wat"></a></li>
+											<li><a href="#link6"><img src="img/galeria1/6.jpg" alt="Gran Muralla China" title="Gran Muralla China"></a></li>
+										</ol>
+										
+									</section>
+									
+									
+									
+									<!--imagenes -->
+									<div id="link1" class="imagennn">
+										<img class="imaTamaño" src="img/galeria1/1.jpg"   id="imagen" title="Paris" alt=" Basílica de San Pedro del Vaticano" title=" Basílica de San Pedro del Vaticano" >
+										<br>
+										<label>Precio:</label><input type="text" id="precio" value="1000" disabled/>
+										<section class="shortForm">
+											<form id="formulario" name="formulario" method="post" action="">
+											<label for="fecha">Inicio:</label>
+											<input type="date" name="fechaInicio" id="fI" min="1920-0-01" max="2021-12-12" required autofocus/>
+											<label for="fecha">Fin:</label>
+											<input type="date" name="fechaFin" id="fF" min="1920-0-01" max="2021-12-12" required autofocus/>
+											
+											<label for="hYv">Hospedaje y vuelo:</label>
+											<input type="checkbox" name="hYv" id="hYv" value="10000"/> 
+											<br>
+											<label for="personas">Personas:</label>
+											<input type="number" name="personas" id="personas" placeholder="¿Cuántas personas son?" min="1" max="100" required autofocus/>
+											<label></label>
+											<input id="c" type="button" value="Cotizar" onclick="muestraMensaje1()" />
+											
+											
+											</form>
+											
+											
+											
+											
+											
+										</section>
+										
+									</div>
+
+									<div id="link2" class="imagennn">
+									  <img class="imaTamaño" src="img/galeria1/2.jpg" alt="Angkor Wat" title="Angkor Wat" >
+									  <br>
+										<label>Precio:</label><input type="text" id="precio" value="2000" disabled/>
+										<section class="shortForm">
+											<form id="formulario" name="formulario" method="post" action="">
+												<label for="fecha">Inicio:</label>
+												<input type="date" name="fechaInicio" id="fI" min="1920-0-01" max="2021-12-12" required autofocus/>
+												<label for="fecha">Fin:</label>
+												<input type="date" name="fechaFin" id="fF" min="1920-0-01" max="2021-12-12" required autofocus/>
+												
+												<label for="hYv">Hospedaje y vuelo:</label>
+												<input type="checkbox" name="hYv" id="hYv" value="10000"/> 
+												<br>
+												<label for="personas">Personas:</label>
+												<input type="number" name="personas" id="personas" placeholder="¿Cuántas personas son?" min="1" max="100" required autofocus/>
+												<label></label>
+												<input id="boton" type="button" value="Cotizar" />
+											</form>											
+										</section>
+									</div>
+
+									<div id="link3" class="imagennn">
+									  <img class="imaTamaño" src="img/galeria1/3.jpg" alt="Gran Muralla China" title="Gran Muralla China">
+									  <br>
+										<label>Precio:</label><input type="text" id="precio" value="3000" disabled/>
+										<section class="shortForm">
+											<form id="formulario" name="formulario" method="post" action="">
+												<label for="fecha">Inicio:</label>
+												<input type="date" name="fechaInicio" id="fI" min="1920-0-01" max="2021-12-12" required autofocus/>
+												<label for="fecha">Fin:</label>
+												<input type="date" name="fechaFin" id="fF" min="1920-0-01" max="2021-12-12" required autofocus/>
+												
+												<label for="hYv">Hospedaje y vuelo:</label>
+												<input type="checkbox" name="hYv" id="hYv" value="10000"/> 
+												<br>
+												<label for="personas">Personas:</label>
+												<input type="number" name="personas" id="personas" placeholder="¿Cuántas personas son?" min="1" max="100" required autofocus/>
+												<label></label>
+												<input id="c2" type="button" value="Cotizar" onclick="muestraMensaje2()" />
+											</form>											
+										</section>
+									</div>
+									
+									<div id="link4" class="imagennn">
+									  <img class="imaTamaño" src="img/galeria1/4.jpg" alt=" Basílica de San Pedro del Vaticano" title=" Basílica de San Pedro del Vaticano">
+									</div>
+
+									<div id="link5" class="imagennn">
+									  <img class="imaTamaño" src="img/galeria1/5.jpg" alt="Angkor Wat" title="Angkor Wat">
+									</div>
+
+									<div id="link6" class="imagennn">
+									  <img class="imaTamaño" src="img/galeria1/6.jpg" alt="Gran Muralla China" title="Gran Muralla China">
+									</div>
+									
+									
+
+								</div>				
+					</div>
+					
+			</article>
+	</section>
+
+		<script src="js/script1.js"></script>
+	</body>
+</html>
